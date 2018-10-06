@@ -6,14 +6,24 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/borkenpipe/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitignore
   - .inputrc
+  - .vimrc
+  - .ackrc
+  - .bash_profile
+  - .git
+  - .gitconfig
+  - .gitignore
+  - .inputrc
   - .osx
+  - .screenrc
+  - .subversion_config
+  - .tmux.conf
   - .vimrc
 
 homebrew_installed_packages:
