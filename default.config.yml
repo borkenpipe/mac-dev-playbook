@@ -10,9 +10,6 @@ dotfiles_repo: https://github.com/borkenpipe/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
 dotfiles_files:
-  - .bash_profile
-  - .gitignore
-  - .inputrc
   - .vimrc
   - .ackrc
   - .bash_profile
@@ -24,7 +21,8 @@ dotfiles_files:
   - .screenrc
   - .subversion_config
   - .tmux.conf
-  - .vimrc
+  - .tmux.conf.extra
+  - .is_ssh.sh
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
