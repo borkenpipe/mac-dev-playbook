@@ -9,7 +9,6 @@ configure_osx: yes
 dotfiles_repo: https://github.com/borkenpipe/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/dotfiles
-etc_files: "~/etc/"
 dotfiles_files:
   - .vimrc
   - .ackrc
